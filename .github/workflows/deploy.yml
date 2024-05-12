@@ -30,7 +30,7 @@ jobs:
       - name: Run Custom tasks 
         run: |
           # meetlify clean
-          meetlify setup
+          # meetlify setup
           meetlify make
 
       - name: Deploy Website/Documents
